@@ -269,7 +269,7 @@ void aStarSearch(int grid[][COL], Pair src, Pair dest)
 				hNew = calculateHValue(i - 1, j, dest);
 				fNew = gNew + hNew;
 
-				// If it isn’t on the open list, add it to 
+				// If it isnâ€™t on the open list, add it to 
 				// the open list. Make the current square 
 				// the parent of this square. Record the 
 				// f, g, and h costs of the square cell 
@@ -320,7 +320,7 @@ void aStarSearch(int grid[][COL], Pair src, Pair dest)
 				hNew = calculateHValue(i + 1, j, dest);
 				fNew = gNew + hNew;
 
-				// If it isn’t on the open list, add it to 
+				// If it isnâ€™t on the open list, add it to 
 				// the open list. Make the current square 
 				// the parent of this square. Record the 
 				// f, g, and h costs of the square cell 
@@ -370,7 +370,7 @@ void aStarSearch(int grid[][COL], Pair src, Pair dest)
 				hNew = calculateHValue(i, j + 1, dest);
 				fNew = gNew + hNew;
 
-				// If it isn’t on the open list, add it to 
+				// If it isnâ€™t on the open list, add it to 
 				// the open list. Make the current square 
 				// the parent of this square. Record the 
 				// f, g, and h costs of the square cell 
@@ -422,7 +422,7 @@ void aStarSearch(int grid[][COL], Pair src, Pair dest)
 				hNew = calculateHValue(i, j - 1, dest);
 				fNew = gNew + hNew;
 
-				// If it isn’t on the open list, add it to 
+				// If it isnâ€™t on the open list, add it to 
 				// the open list. Make the current square 
 				// the parent of this square. Record the 
 				// f, g, and h costs of the square cell 
@@ -474,7 +474,7 @@ void aStarSearch(int grid[][COL], Pair src, Pair dest)
 				hNew = calculateHValue(i - 1, j + 1, dest);
 				fNew = gNew + hNew;
 
-				// If it isn’t on the open list, add it to 
+				// If it isnâ€™t on the open list, add it to 
 				// the open list. Make the current square 
 				// the parent of this square. Record the 
 				// f, g, and h costs of the square cell 
@@ -526,7 +526,7 @@ void aStarSearch(int grid[][COL], Pair src, Pair dest)
 				hNew = calculateHValue(i - 1, j - 1, dest);
 				fNew = gNew + hNew;
 
-				// If it isn’t on the open list, add it to 
+				// If it isnâ€™t on the open list, add it to 
 				// the open list. Make the current square 
 				// the parent of this square. Record the 
 				// f, g, and h costs of the square cell 
@@ -576,7 +576,7 @@ void aStarSearch(int grid[][COL], Pair src, Pair dest)
 				hNew = calculateHValue(i + 1, j + 1, dest);
 				fNew = gNew + hNew;
 
-				// If it isn’t on the open list, add it to 
+				// If it isnâ€™t on the open list, add it to 
 				// the open list. Make the current square 
 				// the parent of this square. Record the 
 				// f, g, and h costs of the square cell 
@@ -628,7 +628,7 @@ void aStarSearch(int grid[][COL], Pair src, Pair dest)
 				hNew = calculateHValue(i + 1, j - 1, dest);
 				fNew = gNew + hNew;
 
-				// If it isn’t on the open list, add it to 
+				// If it isnâ€™t on the open list, add it to 
 				// the open list. Make the current square 
 				// the parent of this square. Record the 
 				// f, g, and h costs of the square cell 
